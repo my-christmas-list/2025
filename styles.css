@@ -22,7 +22,7 @@ body{
 a{text-decoration:none;}
 
 
-/* ---------- HEADER ---------- */
+
 .site-header{
   position:sticky;
   top:0;
@@ -51,7 +51,7 @@ a{text-decoration:none;}
   color:var(--accent);
 }
 
-/* ---------- HERO ---------- */
+
 .hero{
   padding:4rem 0;
   margin-top: 60px; /* evita sovrapposizione header */
@@ -90,7 +90,7 @@ a{text-decoration:none;}
   filter:brightness(1.15);
 }
 
-/* ---------- CAROUSEL ---------- */
+
 .carousel h3{
   margin-top: 100px;
   margin-bottom:1rem;
@@ -143,7 +143,7 @@ a{text-decoration:none;}
 }
 
 
-/* frecce */
+
 .arrow{
   position:absolute;
   top:50%;
@@ -168,7 +168,7 @@ a{text-decoration:none;}
   right:10px;
 }
 
-/* pallini */
+
 .dots{
   display:flex;
   justify-content:center;
@@ -187,27 +187,27 @@ a{text-decoration:none;}
   background:var(--accent);
 }
 
-/* ---------- CONTATTI ---------- */
+
 .contact{
   color:var(--muted);
   margin-top:2rem;
 }
 
-/* ---------- FOOTER ---------- */
+
 .site-footer{
   text-align:center;
   padding:1.5rem 0;
   color:var(--muted);
 }
 
-/* ---------- RESPONSIVE ---------- */
+/* Per i telefonini piccolini */
 @media(max-width:580px){
   .hero h2{font-size:1.6rem;}
   .site-header nav{display:none;}
   .slide img{height:260px;}
 }
 
-/* ---------- NEVE (solo parte superiore) ---------- */
+
 .snow {
   position: fixed;
   top: 0;

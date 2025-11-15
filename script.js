@@ -9,6 +9,7 @@ const arrowLeft = document.querySelector(".arrow.left");
 const arrowRight = document.querySelector(".arrow.right");
 
 let index = 0;
+const TempoIntervalo = 15000;
 
 function showSlide(i) {
   slides.forEach(s => s.classList.remove("active"));
@@ -22,32 +23,35 @@ function nextSlide() {
   index = (index + 1) % slides.length;
   showSlide(index);
 }
+function backSlide(){ 
+  index = (index - 1 + slides.length) % slides.length;
+  showSlide(index);
+}
 
-let auto = setInterval(nextSlide, 15000);
+let auto = setInterval(nextSlide, TempoIntervalo);
 
-// PALLINI
+
 dots.forEach(dot => {
   dot.addEventListener("click", () => {
     index = parseInt(dot.dataset.index);
     showSlide(index);
     clearInterval(auto);
-    auto = setInterval(nextSlide, 15000);
+    auto = setInterval(nextSlide, TempoIntervalo);
   });
 });
 
-// FRECCIA SINISTRA
+
 arrowLeft.addEventListener("click", () => {
-  index = (index - 1 + slides.length) % slides.length;
-  showSlide(index);
+  backSlide();
   clearInterval(auto);
-  auto = setInterval(nextSlide, 15000);
+  auto = setInterval(nextSlide, TempoIntervalo)
 });
 
-// FRECCIA DESTRA
+
 arrowRight.addEventListener("click", () => {
   nextSlide();
   clearInterval(auto);
-  auto = setInterval(nextSlide, 15000);
+  auto = setInterval(nextSlide, TempoIntervalo);
 });
 
 
