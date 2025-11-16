@@ -3,83 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Merry Christmas</title>
+  <title>La prova</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="images/Favicon.png">
 </head>
 
 <body>
 
-
 <div class="snow"></div>
-
 
 <header class="site-header">
   <div class="container">
-    <h1>Mia lista per san Niccola</h1>
+    <h1 data-i18n="header_title">Mia lista per san Niccola</h1>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#gallery">Galleria</a>
-      <a href="#contact">Contatti</a>
-      <a href="#instructions">Istruzioni</a>
+      <a href="#home" data-i18n="nav_home">Home</a>
+      <a href="#gallery" data-i18n="nav_gallery">Galleria</a>
+      <a href="#contact" data-i18n="nav_contact">Contatti</a>
+      <a href="#instructions" data-i18n="nav_instructions">Istruzioni</a>
     </nav>
   </div>
 </header>
+
+<div class="lang-switch">
+  <button class="glass" onclick="setLang('en')">ᴇɴɢ</button>
+  <button class="glass" onclick="setLang('uk')">ᴜᴀ</button>
+  <button class="glass" onclick="setLang('it')">ɪᴛᴀ</button>  
+</div>
 
 <main>
 
   <section id="home" class="hero">
     <div class="container hero-box">
-      <h2>Scegli il tuo regalo per me!</h2>
-      <p>Spoiler: i regali che vedi per primi sono quelli che desidero di più^^</p>
-      <a href="#gallery" class="cta">Vedi il carosello</a>
+      <h2 data-i18n="hero_title">Scegli il tuo regalo per me!</h2>
+      <p data-i18n="hero_desc">Spoiler: i regali che vedi per primi sono quelli che desidero di più^^</p>
+      <a href="#gallery" class="cta" data-i18n="hero_button">Vedi il carosello</a>
     </div>
   </section>
 
   <section id="gallery" class="container carousel">
-    <h3>Galleria</h3>
+    <h3 data-i18n="gallery_title">Galleria</h3>
 
     <div class="carousel-wrapper">
 
       <div class="slide active">
         <img src="images/il_PC.jpg" alt="Er PC">
-		<span class="priority glass">🎁 Regalo #1</span>
-        <a href="regalo1.html" class="caption">
+        <span class="priority glass" data-i18n="priority_1">🎁 Regalo #1</span>
+        <a href="regalo1.html" class="caption" data-i18n="caption_1">
           🎁 PC White Shark 2.0 🎁
         </a>
       </div>
 
       <div class="slide">
         <img src="images/Regalo.png" alt="Regalo 2">
-		<span class="priority glass">🎁 Regalo #2</span>
-        <a href="Regalo2.html" class="caption">
+        <span class="priority glass" data-i18n="priority_2">🎁 Regalo #2</span>
+        <a href="Regalo2.html" class="caption" data-i18n="caption_2">
           🎁 Regalo numero 2 🎁
         </a>
       </div>
 
       <div class="slide">
         <img src="images/Regalo.png" alt="Regalo 3">
-		<span class="priority glass">🎁 Regalo #3</span>
-        <a href="Regalo3.html" class="caption">
+        <span class="priority glass" data-i18n="priority_3">🎁 Regalo #3</span>
+        <a href="Regalo3.html" class="caption" data-i18n="caption_3">
           🎁 Regalo 3 🎁
         </a>
       </div>
 
       <div class="slide">
         <img src="images/Regalo.png" alt="Regalo 4">
-		<span class="priority glass">🎁 Regalo #4</span>
-        <a href="Regalo4.html" class="caption">
+        <span class="priority glass" data-i18n="priority_4">🎁 Regalo #4</span>
+        <a href="Regalo4.html" class="caption" data-i18n="caption_4">
           🎁 Regalo 4 🎁
         </a>
       </div>
 
-
+     
       <button class="arrow left">❮</button>
       <button class="arrow right">❯</button>
 
-      </div>
+    </div>
 
-
+    
     <div class="dots">
       <span class="dot active" data-index="0"></span>
       <span class="dot" data-index="1"></span>
@@ -89,21 +93,22 @@
 
   </section>
 
-
   <section id="contact" class="container contact">
-    <h3>Contatti</h3>
-    <p>Per modifiche, puoi aggiornare <code>me </code> o <code>me </code>.</p>
+    <h3 data-i18n="contact_title">Contatti</h3>
+    <p data-i18n="contact_text">Per modifiche, puoi contattare  <code>me </code> o <code>me </code>.</p>
   </section>
 
 </main>
 
 <footer class="site-footer">
   <div class="container">
-    <small>CopyRights 2025 ©Someone unknow to the world and the self</small>
+    <small data-i18n="footer_copy">CopyRights 2025 ©Someone unknow to the world and the self</small>
   </div>
 </footer>
 
 
+
+<script src="traduzioni.js"></script>
 <script src="script.js"></script>
 
 </body>

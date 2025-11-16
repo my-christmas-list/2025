@@ -3,45 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Regalo 2</title>
+  <title data-i18n="gift2_page_title">Regalo #2</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
- <div class="snow"></div>
+<div class="snow"></div>
 
-  <header class="site-header">
-    <div class="container">
-      <h1>Dettagli regalo</h1>
-      <nav>
-        <a href="index.html">Home</a>
-		<a href="#contact">Contatti</a>
-      </nav>
-    </div>
-  </header>
+<header class="site-header">
+  <div class="container">
+    <h1 data-i18n="header_title">Mia lista per san Niccola</h1>
+    <nav>
+      <a href="index.html#home" data-i18n="nav_home">Home</a>
+      <a href="index.html#gallery" data-i18n="nav_gallery">Galleria</a>
+      <a href="index.html#contact" data-i18n="nav_contact">Contatti</a>
+      <a href="index.html#instructions" data-i18n="nav_instructions">Istruzioni</a>
+    </nav>
+  </div>
+</header>
 
-  <main class="container">
-    <h2>PC White Shark 2.0</h2>
-    <img src="images/il_PC.jpg" alt="PC White Shark" style="max-width:100%; border-radius:12px;">
-    <p>Questo PC è perfetto per giocare e lavorare. Lo desidero moltissimo perché...</p>
-    <p>Prezzo: circa 1200€</p>
-    <p>Dove ordinarlo: <a href="https://www.golookshop.it/shop/pc-white-shark/" target="_blank" rel="noopener noreferrer">Vai al sito</a></p>
-  </main>
+<div class="lang-switch">
+  <button class="glass" onclick="setLang('en')">ᴇɴɢ</button>
+  <button class="glass" onclick="setLang('uk')">ᴜᴀ</button>
+  <button class="glass" onclick="setLang('it')">ɪᴛᴀ</button>
+</div>
 
-  <footer class="site-footer">
-    <div class="container">
-      <small>CopyRights 2025 ©Someone unknown</small>
-    </div>
-  </footer>
-  
- <script> 
-  for (let i = 0; i < 20; i++) {
-  const f = document.createElement("div");
-  f.classList.add("snowflake");
-  f.style.left = Math.random() * 100 + "%";
-  f.style.animationDuration = (3 + Math.random() * 4) + "s";
-  f.style.animationDelay = Math.random() * 3 + "s";
-  document.querySelector(".snow").appendChild(f);}
- </script>
+<main class="container" style="margin-top: 120px;">
+  <h2 data-i18n="gift_title_2">🎁 Regalo #2 – Cuffie Gaming HyperSound</h2>
+
+  <img src="images/Regalo.png" alt="Cuffie Gaming" style="max-width:100%; border-radius:12px; display:block; margin:16px auto;">
+
+  <p data-i18n="gift_desc_2">
+    Ottime cuffie con microfono, audio surround e comode per sessioni lunghe di gioco.
+  </p>
+
+  <p><strong data-i18n="gift_price_2">Prezzo:</strong> <span data-i18n="gift_price_val_2">circa 80€</span></p>
+
+  <p><a href="#" target="_blank" rel="noopener noreferrer" data-i18n="gift_buy_2">Vai al sito</a></p>
+
+  <br>
+  <a href="index.html#gallery" class="cta" data-i18n="back_to_gallery">⬅ Torna alla galleria</a>
+</main>
+
+<footer class="site-footer" style="margin-top:40px;">
+  <div class="container">
+    <small data-i18n="footer_copy">CopyRights 2025 ©Someone unknown</small>
+  </div>
+</footer>
+
+<script src="traduzioni.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
