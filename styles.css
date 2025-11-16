@@ -67,6 +67,26 @@ a{text-decoration:none;}
   backdrop-filter:blur(4px);
 }
 
+.priority {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--accent);
+  color: #171c2b;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  z-index: 10;
+}
+
+.priority:hover {
+  color: purple;
+  background: #ffd166cc; 
+}
+
+
+
 .hero h2{
   font-size:2.2rem;
   margin-bottom:.5rem;
@@ -87,8 +107,22 @@ a{text-decoration:none;}
   transition:var(--transition);
 }
 .cta:hover{
-  filter:brightness(1.15);
+  filter:brightness(1.25);
+  font-weight:700;
 }
+
+.glass {
+}
+
+.glass:hover {
+  background: rgba(255, 255, 255, 0.1); /* leggermente bianco trasparente */
+  backdrop-filter: blur(6px);          
+  padding: 0.3rem 0.6rem;
+  color: var(--text);
+  font-weight: 600;
+  display: inline-block;
+}
+
 
 
 .carousel h3{
@@ -136,6 +170,7 @@ a{text-decoration:none;}
 
 .caption:hover{
   color:violet;
+  text-decoration: underline violet;
 }
 
 .slide img:hover {
@@ -156,6 +191,7 @@ a{text-decoration:none;}
   border-radius:50%;
   cursor:pointer;
   transition:.3s;
+  align-items:center;
 }
 .arrow:hover{
   background:rgba(0,0,0,0.55);

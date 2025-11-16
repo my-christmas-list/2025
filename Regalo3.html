@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Regalo 3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ <div class="snow"></div>
+ 
+  <header class="site-header">
+    <div class="container">
+      <h1>Dettagli regalo</h1>
+      <nav>
+        <a href="index.html">Home</a>
+		<a href="#contact">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>PC White Shark 2.0</h2>
+    <img src="images/il_PC.jpg" alt="PC White Shark" style="max-width:100%; border-radius:12px;">
+    <p>Questo PC è perfetto per giocare e lavorare. Lo desidero moltissimo perché...</p>
+    <p>Prezzo: circa 1200€</p>
+    <p>Dove ordinarlo: <a href="https://www.golookshop.it/shop/pc-white-shark/" target="_blank" rel="noopener noreferrer">Vai al sito</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>CopyRights 2025 ©Someone unknown</small>
+    </div>
+  </footer>
+  
+ <script> 
+  for (let i = 0; i < 20; i++) {
+  const f = document.createElement("div");
+  f.classList.add("snowflake");
+  f.style.left = Math.random() * 100 + "%";
+  f.style.animationDuration = (3 + Math.random() * 4) + "s";
+  f.style.animationDelay = Math.random() * 3 + "s";
+  document.querySelector(".snow").appendChild(f);}
+ </script>
+ 
+</body>
+</html>
