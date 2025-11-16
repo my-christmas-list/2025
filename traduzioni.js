@@ -13,13 +13,13 @@ const translations = {
     gallery_title: "Galleria",
 
    
-    priority_1: "🎁 Regalo #1",
+    priority_1: "🎁 Il Regalo Migliore",
     caption_1: "🎁 PC White Shark 2.0 🎁",
-    priority_2: "🎁 Regalo #2",
+    priority_2: "🎁 Dai non e' male",
     caption_2: "🎁 Regalo numero 2 🎁",
-    priority_3: "🎁 Regalo #3",
+    priority_3: "🎁 Ci sta",
     caption_3: "🎁 Regalo 3 🎁",
-    priority_4: "🎁 Regalo #4",
+    priority_4: "🎁 L'ultimo chance",
     caption_4: "🎁 Regalo 4 🎁",
 
   
@@ -67,13 +67,13 @@ const translations = {
     hero_button: "See the carousel",
     gallery_title: "Gallery",
 
-    priority_1: "🎁 Gift #1",
+    priority_1: "🎁 The absolute best",
     caption_1: "🎁 PC White Shark 2.0 🎁",
-    priority_2: "🎁 Gift #2",
+    priority_2: "🎁 Mind the gap",
     caption_2: "🎁 Gift number 2 🎁",
-    priority_3: "🎁 Gift #3",
+    priority_3: "🎁 Not half bad",
     caption_3: "🎁 Gift 3 🎁",
-    priority_4: "🎁 Gift #4",
+    priority_4: "🎁 Acceptable",
     caption_4: "🎁 Gift 4 🎁",
 
     gift_title_1: "🎁 Gift #1 – PC White Shark 2.0",
