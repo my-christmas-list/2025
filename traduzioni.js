@@ -124,6 +124,7 @@ const translations = {
     caption_1: "🎁 PC White Shark 2.0 🎁",
     priority_2: "🎁 Подарунок #2",
     caption_2: "🎁 Подарунок номер 2 🎁",
+	gallery_item_2_desc:"Зручні ігрові навушники з чудовим звуком.",
     priority_3: "🎁 Подарунок #3",
     caption_3: "🎁 Подарунок 3 🎁",
     priority_4: "🎁 Подарунок #4",
@@ -159,8 +160,20 @@ const translations = {
     back_to_gallery: "⬅ Повернутися до галереї",
     contact_title: "Контакти",
     contact_text: "Для змін ви можете зв'язатися з <code>мною</code> або <code>мною</code>."
-  }
+  },
+  
+  // Potrebbe essere una soluziine Migliore
+ gallery_item_3_desc: {
+  it: "Zaino resistente e organizzato.",
+  en: "Durable and well-organized backpack.",
+  uk: "Міцний і добре організований рюкзак."
+},
+
 };
+
+
+
+
 
 function setLang(lang) {
   localStorage.setItem("lang", lang);

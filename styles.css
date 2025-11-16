@@ -74,9 +74,12 @@ a{text-decoration:none;}
   text-align: center;
 }
 
+
+
 .lang-switch:hover {
 
 }
+
 
 .hero{
   padding:4rem 0;
@@ -318,7 +321,7 @@ a{text-decoration:none;}
 
   /* Mostra menu a tendina */
   .lang-select-mobile {
-    margin-top: 60px;
+    margin-top: 70px;
     display: block;
     position: fixed;
     top: 15px;
@@ -326,16 +329,47 @@ a{text-decoration:none;}
     z-index: 9999999;
   }
 
-  .lang-select-mobile select {
+.lang-select-mobile select {
+    width: auto;
+    max-width: 90px;
+    display: inline-block;
+
     background: var(--accent);
     color: #171c2b;
     font-weight: 700;
-    padding: 6px 10px;
+    padding-left: 5px;
+    padding-right: 12.5px;
+    
     border-radius: 10px;
     border: none;
-    font-size: 1rem;
     cursor: pointer;
-  }
+
+    text-align: center;
+}
+
+  
+    .gift-container {
+        margin-top: 140px !important;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .gift-image {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 12px;
+    }
+
+    .cta {
+        display: block;
+        width: 100%;
+        max-width: 280px;
+        margin: 20px auto;
+        text-align: center;
+    }
 }
 
 
