@@ -6,13 +6,13 @@ const translations = {
     nav_contact: "Contatti",
     nav_instructions: "Istruzioni",
 
-    // index / hero
+  
     hero_title: "Scegli il tuo regalo per me!",
     hero_desc: "Spoiler: i regali che vedi per primi sono quelli che desidero di più^^",
     hero_button: "Vedi il carosello",
     gallery_title: "Galleria",
 
-    // gifts (index thumbnails)
+   
     priority_1: "🎁 Regalo #1",
     caption_1: "🎁 PC White Shark 2.0 🎁",
     priority_2: "🎁 Regalo #2",
@@ -22,12 +22,11 @@ const translations = {
     priority_4: "🎁 Regalo #4",
     caption_4: "🎁 Regalo 4 🎁",
 
-    // gift pages (it)
-    gift1_page_title: "Regalo #1 – PC White Shark 2.0",
+  
     gift_title_1: "🎁 Regalo #1 – PC White Shark 2.0",
     gift_desc_1: "Questo è il regalo che desidero di più! Un PC super potente per giocare, studiare e programmare.",
     gift_price_1: "Prezzo:",
-    gift_price_val_1: "circa 1200€",
+    gift_price_val_1: "circa 3200€",
     gift_buy_1: "Vai al sito",
 
     gift2_page_title: "Regalo #2 – Cuffie Gaming HyperSound",
@@ -48,13 +47,12 @@ const translations = {
     gift_title_4: "🎁 Regalo #4 – Tastiera Meccanica ClickPro",
     gift_desc_4: "Tastiera meccanica RGB con switch tattile, retroilluminazione personalizzabile e costruzione solida per gaming e studio.",
     gift_price_4: "Prezzo:",
-    gift_price_val_4: "circa 90€",
+    gift_price_val_4: "circa 50€",
     gift_buy_4: "Vai al sito",
 
     back_to_gallery: "⬅ Torna alla galleria",
     contact_title: "Contatti",
-    contact_text: "Per modifiche, puoi contattare  <code>me</code> o <code>me</code>.",
-    footer_copy: "CopyRights 2025 ©Someone unknown to the world and the self"
+    contact_text: "Per modifiche, puoi contattare  <code>me</code> o <code>me</code>."
   },
 
   en: {
@@ -78,11 +76,10 @@ const translations = {
     priority_4: "🎁 Gift #4",
     caption_4: "🎁 Gift 4 🎁",
 
-    gift1_page_title: "Gift #1 – PC White Shark 2.0",
     gift_title_1: "🎁 Gift #1 – PC White Shark 2.0",
     gift_desc_1: "This is the gift I want the most! A powerful PC for gaming, studying and coding.",
     gift_price_1: "Price:",
-    gift_price_val_1: "about €1200",
+    gift_price_val_1: "about €3200",
     gift_buy_1: "Go to site",
 
     gift2_page_title: "Gift #2 – HyperSound Gaming Headset",
@@ -103,13 +100,12 @@ const translations = {
     gift_title_4: "🎁 Gift #4 – ClickPro Mechanical Keyboard",
     gift_desc_4: "Mechanical RGB keyboard with tactile switches, customizable lighting and solid build for gaming and study.",
     gift_price_4: "Price:",
-    gift_price_val_4: "about €90",
+    gift_price_val_4: "about €50",
     gift_buy_4: "Go to site",
 
     back_to_gallery: "⬅ Back to gallery",
     contact_title: "Contacts",
-    contact_text: "For changes, you can contact <code>me</code> or <code>me</code>.",
-    footer_copy: "CopyRights 2025 ©Someone unknown to the world and the self"
+    contact_text: "For changes, you can contact <code>me</code> or <code>me</code>."
   },
 
   uk: {
@@ -133,11 +129,10 @@ const translations = {
     priority_4: "🎁 Подарунок #4",
     caption_4: "🎁 Подарунок 4 🎁",
 
-    gift1_page_title: "Подарунок #1 – PC White Shark 2.0",
     gift_title_1: "🎁 Подарунок #1 – PC White Shark 2.0",
     gift_desc_1: "Це подарунок, який я хочу найбільше! Потужний ПК для ігор, навчання і програмування.",
     gift_price_1: "Ціна:",
-    gift_price_val_1: "приблизно €1200",
+    gift_price_val_1: "приблизно €3200",
     gift_buy_1: "Перейти на сайт",
 
     gift2_page_title: "Подарунок #2 – Навушники HyperSound",
@@ -158,13 +153,12 @@ const translations = {
     gift_title_4: "🎁 Подарунок #4 – Механічна клавіатура ClickPro",
     gift_desc_4: "Механічна клавіатура RGB з тактильними перемикачами, налаштовуваним підсвічуванням та міцною конструкцією для ігор і навчання.",
     gift_price_4: "Ціна:",
-    gift_price_val_4: "приблизно €90",
+    gift_price_val_4: "приблизно €50",
     gift_buy_4: "Перейти на сайт",
 
     back_to_gallery: "⬅ Повернутися до галереї",
     contact_title: "Контакти",
-    contact_text: "Для змін ви можете зв'язатися з <code>мною</code> або <code>мною</code>.",
-    footer_copy: "CopyRights 2025 ©Хтось невідомий"
+    contact_text: "Для змін ви можете зв'язатися з <code>мною</code> або <code>мною</code>."
   }
 };
 

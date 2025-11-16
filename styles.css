@@ -263,11 +263,70 @@ a{text-decoration:none;}
   color:var(--muted);
 }
 
+.link_esterno {
+  display:block;
+  margin-top:10px;
+  color:var(--accent);
+  font-size:1.1rem;
+  font-weight:600;
+  transition:.3s;
+}
+
+.link_esterno:hover{
+  color:violet;
+  text-decoration: underline violet;
+}
+
+.image{
+  max-width:100%;
+  border-radius:12px; 
+  display:block; 
+  margin:16px auto;
+}
+
+.animated-underline {
+  position: relative;
+  display: inline-block;
+  cursor: default; /* opzionale */
+}
+
+.animated-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px; /* distanza dalla scritta */
+  width: 0%;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 0.35s ease;
+}
+
+.animated-underline:hover::after {
+  width: 100%;
+}
+
 /* Per i telefonini piccolini */
 @media(max-width:580px){
   .hero h2{font-size:1.6rem;}
   .site-header nav{display:none;}
   .slide img{height:260px;}
+  
+  .lang-switch {
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;  /* orizzontale per occupare meno altezza */
+    gap: 6px;
+  }
+
+  .lang-switch button {
+    font-size: 0.75rem;   /* testo più piccolo */
+    padding: 4px 8px;     /* bottoni più compatti */
+    min-width: 38px;
+    height: 28px;
+    border-radius: 10px;
+  }
 }
 
 
