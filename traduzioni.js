@@ -41,7 +41,7 @@ const translations = {
     gift_desc_3: "Zaino resistente con scomparti speciali per laptop, caricatore e accessori, perfetto per la scuola e i viaggi.",
     gift_price_3: "Prezzo:",
     gift_price_val_3: "circa 60€",
-    gift_buy_3: "Vai al sito",
+    gift_buy_3: "Per trovare il sito - clicca sull'immagine della cuffia desideratta",
 
     gift4_page_title: "Regalo #4 – Tastiera Meccanica ClickPro",
     gift_title_4: "🎁 Regalo #4 – Tastiera Meccanica ClickPro",

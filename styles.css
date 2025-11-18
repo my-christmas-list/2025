@@ -274,7 +274,7 @@ a{text-decoration:none;}
   color:var(--muted);
 }
 
-.link_esterno {
+.external_link {
   display:block;
   margin-top:10px;
   color:var(--accent);
@@ -283,7 +283,7 @@ a{text-decoration:none;}
   transition:.3s;
 }
 
-.link_esterno:hover{
+.external_link:hover{
   color:violet;
   text-decoration: underline violet;
 }
