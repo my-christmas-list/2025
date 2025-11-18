@@ -162,7 +162,7 @@ const translations = {
     contact_text: "Для змін ви можете зв'язатися з <code>мною</code> або <code>мною</code>."
   },
   
-  // Potrebbe essere una soluziine Migliore
+  // Potrebbe essere una soluzione Migliore
  gallery_item_3_desc: {
   it: "Zaino resistente e organizzato.",
   en: "Durable and well-organized backpack.",

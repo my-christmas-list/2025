@@ -18,7 +18,10 @@ body{
   color:var(--text);
 }
 
-.container{max-width:980px; margin:0 auto; padding:1rem;}
+.container{max-width:980px; 
+   margin:0 auto; 
+   padding:1rem;
+}
 a{text-decoration:none;}
 
 
@@ -202,6 +205,7 @@ a{text-decoration:none;}
   text-decoration: underline violet;
 }
 
+
 .slide img:hover {
   transform: scale(1.04);
 }
@@ -254,6 +258,11 @@ a{text-decoration:none;}
 
 
 .contact{
+  color:var(--muted);
+  margin-top:2rem;
+}
+
+.instr{
   color:var(--muted);
   margin-top:2rem;
 }
